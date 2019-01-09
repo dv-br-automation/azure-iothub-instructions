@@ -214,7 +214,7 @@ communication between your device and Azure IoT Hub. You will send messages to t
 
 5.  DeviceExplorer should show that IoTHub has successfully received data sent by sample test.
 
-    ![Sample\_result\_DeviceExplorer](images/3_3_1_04.png)    
+    ![Sample\_result\_DeviceExplorer](images/3_3_Linux_C_Send.png)    
 
 ### 3.3.2 Receive messages from IoT Hub
 
@@ -232,7 +232,7 @@ communication between your device and Azure IoT Hub. You will send messages to t
 5.  You should be able to see the command received in the console window for the
     client sample.
 
-    ![MessageSend\_terminal](images/3_3_Linux_C.png)
+    ![MessageSend\_terminal](images/3_3_Linux_C_Rec.png)
     
 
 <a name="Step-4-Troubleshooting"></a>
