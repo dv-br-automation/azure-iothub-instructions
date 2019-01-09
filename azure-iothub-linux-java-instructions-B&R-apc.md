@@ -239,7 +239,6 @@ section. These will be needed in [Step 4](#Step_4_2).*
 
 1.  Launch the DeviceExplorer as explained in [Step 2](#Step_2) and navigate to **Data** tab. Select the device name you created from the drop-down list of device IDs and click **Monitor** button.
 
-    ![DeviceExplorer\_Monitor](images/3_3_1_01.png)
 
 2.  DeviceExplorer is now monitoring data sent from the selected device to the IoT Hub.
 
