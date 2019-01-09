@@ -170,7 +170,7 @@ communication between your device and Azure IoT Hub. You will send messages to t
 
     **Example: Using MQTT protocol:**
   
-    ![SampleMQTT\_result\_DeviceExplorer](images/3_3_P_Send.png)
+    ![SampleMQTT\_result\_DeviceExplorer](images/3_3_Linux_P_Send.png)
 
 ### 3.3.2 Receive messages from IoT Hub
 
@@ -181,7 +181,7 @@ communication between your device and Azure IoT Hub. You will send messages to t
 
     **Example: Using MQTT protocol:**
     
-    ![MessageSend\_terminal](images/3_3_P_Rec.png)
+    ![MessageSend\_terminal](images/3_3_Linux_P_Rec.png)
 
 
 <a name="Step_4"></a>
