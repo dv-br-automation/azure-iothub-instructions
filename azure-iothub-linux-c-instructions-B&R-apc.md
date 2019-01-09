@@ -42,10 +42,9 @@ You should have the following items ready before beginning the process:
 -   Computer with GitHub installed and access to the
     [azure-iot-sdk-c](https://github.com/Azure/azure-iot-sdk-c) GitHub
     public repository.
--   SSH client, such as [PuTTY](http://www.putty.org/), so you can access the command line.
+-   (Optional) SSH client, such as [PuTTY](http://www.putty.org/), so you can access the command line.
 -   Required hardware to certify.
 
-***Note:*** *If you haven't contacted Microsoft about being an Azure Certified for IoT partner, please submit this [form](<https://catalog.azureiotsuite.com/>) first to request it and then follow these instructions.*
 
 <a name="Step-1-Configure"></a>
 # Step 1: Sign Up To Azure IoT Hub
@@ -106,21 +105,15 @@ This section walks you through building, deploying and validating the IoT Client
 <a name="Step-3-1-Load"></a>
 ## 3.1 Load the Azure IoT bits and prerequisites on device
 
--   Open a PuTTY session and connect to the device.
+-   Open terminal on the device.
 
 -   Install the prerequisite packages by issuing the following commands from the command line on the device. Choose your commands based on the OS running on your device.
 
-    **Debian or Ubuntu**
+    **B&R Linux**
 
         sudo apt-get update
 
         sudo apt-get install -y curl uuid-dev libcurl4-openssl-dev build-essential cmake git
-
-    **Fedora**
-
-        sudo dnf check-update -y
-
-        sudo dnf install uuid-devel libcurl-devel openssl-devel gcc-c++ make cmake git
 
     **Any Other Linux OS**
 
@@ -135,8 +128,6 @@ This section walks you through building, deploying and validating the IoT Client
     *This library also requires gcc version 4.9 or higher. You can verify the current version installed in your environment using the following command:*
     
         gcc --version 
-
-    *For information about how to upgrade your version of gcc on Ubuntu 14.04, see <http://askubuntu.com/questions/466651/how-do-i-use-the-latest-gcc-4-9-on-ubuntu-14-04>.*
     
 -   Download the SDK to the board by issuing the following command in PuTTY:
 
@@ -204,16 +195,12 @@ There are two samples one for sending messages to IoT Hub and another for receiv
 In this section you will run the Azure IoT client SDK samples to validate
 communication between your device and Azure IoT Hub. You will send messages to the Azure IoT Hub service and validate that IoT Hub has successfully receive the data. You will also monitor any messages send from the Azure IoT Hub to client.
 
-**Note:** Take screenshots of all the operations you will perform in this
-section. These will be needed in [Step 4](#Step-4-2-Share)
 
 ### 3.3.1 Send Device Events to IOT Hub:
 
 1.  Launch the DeviceExplorer as explained in [Step 2](#Step-2-Register) and
     navigate to **Data** tab. Select the device name you created from the
     drop-down list of device IDs and click **Monitor** button.
-
-    ![DeviceExplorer\_Monitor](images/3_3_1_01.png)
 
 2.  DeviceExplorer is now monitoring data sent from the selected device to the IoT Hub.
 
@@ -223,8 +210,7 @@ section. These will be needed in [Step 4](#Step-4-2-Share)
 
 4.  Verify that the confirmation messages show an OK. If not, then you may have
     incorrectly copied the device hub connection information.
-
-    ![SampleAMQP\_result\_terminal](images/3_3_1_02.png)    
+  
 
 5.  DeviceExplorer should show that IoTHub has successfully received data sent by sample test.
 
@@ -243,12 +229,10 @@ section. These will be needed in [Step 4](#Step-4-2-Share)
 
 4.  Add some text to the Message field, then click Send.
 
-    ![MessageSend\_DeviceExplorer](images/3_3_1_06.png)
-
 5.  You should be able to see the command received in the console window for the
     client sample.
 
-    ![MessageSend\_terminal](images/3_3_1_07.png)
+    ![MessageSend\_terminal](images/3_3_Linux_C.png)
     
 
 <a name="Step-4-Troubleshooting"></a>
