@@ -1,7 +1,7 @@
 ---
 Platform: B&R Linux
 Device: B&R APC
-Language: c
+Language: Python
 ---
 
 Run a simple python sample on B&R APC device running B&R Linux
