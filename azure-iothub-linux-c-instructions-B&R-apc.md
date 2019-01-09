@@ -1,7 +1,7 @@
 ---
-platform: B&R Linux
-device: B&R APC
-language: c
+Platform: B&R Linux
+Device: B&R APC
+Language: c
 ---
 
 Run a simple C sample on B&R APC device running B&R Linux
