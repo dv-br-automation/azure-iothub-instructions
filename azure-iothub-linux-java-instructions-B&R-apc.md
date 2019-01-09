@@ -1,7 +1,7 @@
 ---
 Platform: B&R Linux
 Device: B&R APC
-Language: c
+Language: Java
 ---
 
 Run a simple Java sample on B&R APC device running B&R Linux
