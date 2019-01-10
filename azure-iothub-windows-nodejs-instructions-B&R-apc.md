@@ -83,33 +83,26 @@ This section walks you through the steps to create a UWP Node.js wrapper over ex
 
 1.  Start a new instance of Visual Studio 2015.
 
-2. Create a new project (**File | New Project…**). In the New Project dialog, navigate to Node.js as shown below (in the left pane in the dialog: Templates | JavaScript | Node.js). Select the **Basic Node.js Johnny-Five Application (Universal Windows) template** (shown below). Enter a name for your project, for example **NodeJsUWPSample**. 
+2. Create a new project (**File | New Project…**). In the New Project dialog, navigate to Node.js as shown below (in the left pane in the dialog: Templates | JavaScript | Node.js). Select the **Node.js template** (shown below). Enter a name for your project, for example **NodeJsUWPSample**. 
 
-    ![VisualStudio\_project\_Template](images/vs_project_template_for_nodejs_uwp.png)
+    ![VisualStudio\_project\_Template](images/3_3_windows_nodejs_conf1.png)
 
 3. Select app.js and package.json file in Solution Explorer, Right click and select **Delete**.
 
-      ![VisualStudio\_delete\_oldfiles](images/Delete_old_files.png)
+      ![VisualStudio\_delete\_oldfiles](images/3_3_windows_nodejs_conf2.png)
           
 4. Clone [Azure IoT SDK](https://github.com/Azure/azure-iot-sdk-node.git) repository to your Windows 10 machine. 
 
 5. In File explorer, Copy **package.json** and **simple_sample_device.js** files available under Node.js sample of the repository on your machine. For example if you cloned the **azure-iot-sdk-node** repository under C:\IOT directory, Go to **(C:\azure-iot-sdk-node\device\samples\)**
 
-    ![FileExplorere\_copy\_files](images/copy_files.png)
           
 6. Go back to Visual Studio, Right click your project in Solution Explorer and click **Open Folder in File Explorer**.
-
-   ![VisualStudio\_project\_Template](images/open_project_in_file_explorer.png)
-    
+   
 7. Paste the files you copied earlier in this folder.
-
-    ![FileExplorer\_paste\Files](images/project_file_explorer.png)
     
 8. Go back to Visual Studio, in Solution Explorer on the top context menu, click **Show All Files**.
-
-    ![VisualStudio\show\AllFiles](images/show_all_files.PNG)
     
-9. Right click both **package.json** and **simple_sample_device.js** files and choose **Include in project** option.
+9. (Optional for some Visual Studio) Right click both **package.json** and **simple_sample_device.js** files and choose **Include in project** option.
 
       ![VisualStudio\IncudeIn\Project](images/Include_In_Project.PNG)
         
@@ -129,9 +122,7 @@ This section walks you through the steps to create a UWP Node.js wrapper over ex
 
 14. Right click the **simple_sample_device.js** file and from context menu choose "Set as Node.JS Startup File".
 
-15.  Choose the right architecture (x86 or ARM, depending on your device) and set the debugging method to "Remote Machine":
-
-     ![VisualStudio\_Select\_Architecture](images/vs_select_arch.png)
+15.  Choose the right architecture (x86 or ARM, depending on your device) and set the debugging method to "Remote Machine", or local machine.
     
 16.  To deploy the binaries on your device, right-click on the NodeJsUWPSample project in the **Solution Explorer**, select **Properties** and navigate to the **General** tab:
 
@@ -165,7 +156,7 @@ section. These will be needed in [Step 4](#Step_4_2:_Share).*
        
 4. You should be able to see the events received in the DeviceExplorer's data tab.
 
-      ![DeviceExplorer\_Events\_Received](images/device_explorer_message_received.png)
+      ![DeviceExplorer\_Events\_Received](images/3_3_windows_nodejs_send.png)
 
 ### 3.3.2 Receive messages from IoT Hub
 
@@ -175,7 +166,7 @@ section. These will be needed in [Step 4](#Step_4_2:_Share).*
 
 3.  Add some text to the Message field, then click Send.
 
-    ![DeviceExplorer\_Notification\_Send](images/device_explorer_notification_send.png)
+    ![DeviceExplorer\_Notification\_Send](images/3_3_windows_nodejs_rec.png)
 
 4.  You should be able to see the message received in the Visual Studio Output window.
   
