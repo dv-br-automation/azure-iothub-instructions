@@ -202,6 +202,8 @@ communication between your device and Azure IoT Hub. You will send messages to t
     navigate to **Data** tab. Select the device name you created from the
     drop-down list of device IDs and click **Monitor** button.
 
+    ![DeviceExplorer\_Monitor](images/device_explorer_monitor.png)
+    
 2.  DeviceExplorer is now monitoring data sent from the selected device to the IoT Hub.
 
 3.  Run the sample by issuing following command.    
