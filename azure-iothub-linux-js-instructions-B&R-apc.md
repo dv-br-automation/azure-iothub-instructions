@@ -212,6 +212,7 @@ In this section you will run the Azure IoT client SDK samples to validate commun
 
 1.  Launch the DeviceExplorer as explained in [Step 2](#Register) and navigate to **Data** tab. Select the device name you created from the drop-down list of device IDs, click **Monitor** button.
 
+    ![DeviceExplorer\_Monitor](images/device_explorer_monitor.png)
 
 2.  DeviceExplorer is now monitoring data sent from the selected device to the IoT Hub.
 
