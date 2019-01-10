@@ -149,6 +149,8 @@ communication between your device and Azure IoT Hub. You will send the messages 
 
 1.  Launch the DeviceExplorer as explained in [Step 2](#Step_2:_Register) and navigate to **Data** tab. Select the device name you created from the drop-down list of device IDs and click **Monitor** button.
 
+    ![DeviceExplorer\_Monitor](images/device_explorer_monitor.png)
+    
 2.  DeviceExplorer is now monitoring data sent from the selected device to the IoT Hub.
      
 3.  In Visual Studio, from **Solution Explorer**, right-click the **UWPSample(Universal Windows)** project, click **Debug &minus;&gt; Start new instance** to build and run the sample. 
