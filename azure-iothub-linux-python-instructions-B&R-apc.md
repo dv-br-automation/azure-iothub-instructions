@@ -189,3 +189,7 @@ communication between your device and Azure IoT Hub. You will send messages to t
 
 
 Please contact engineering support on <support@br-automation.com> for help with troubleshooting.
+
+
+
+Reference: Some information in this document is obtained from [here.](https://github.com/Azure/azure-iot-device-ecosystem/tree/master/iotcertification)
