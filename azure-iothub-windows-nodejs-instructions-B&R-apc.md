@@ -178,3 +178,6 @@ section. These will be needed in [Step 4](#Step_4_2:_Share).*
 # Step 4: Troubleshooting
 
 Please contact engineering support on <support@br-automation.com> for help with troubleshooting.
+
+
+Reference: Some information in this document is obtained from [here.](https://github.com/Azure/azure-iot-device-ecosystem/tree/master/iotcertification)
