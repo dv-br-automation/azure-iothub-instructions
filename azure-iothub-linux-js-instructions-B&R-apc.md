@@ -246,3 +246,7 @@ In this section you will run the Azure IoT client SDK samples to validate commun
 # Step 4: Troubleshooting
 
 Please contact engineering support on <support@br-automation.com> for help with troubleshooting.
+
+
+
+Reference: Some information in this document is obtained from [here.](https://github.com/Azure/azure-iot-device-ecosystem/tree/master/iotcertification)
