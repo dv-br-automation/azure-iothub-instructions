@@ -1,6 +1,4 @@
 
-## Instructions for Azure IoT Hub on B&R Devices
-
 ---
 Platform: Windows 10
 Device: B&R APC
