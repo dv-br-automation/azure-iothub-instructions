@@ -1,6 +1,6 @@
 
 
-## Instructions for connecting to Azure IoT Hub from B&R-Automation-PC(https://www.br-automation.com/en-us/products/industrial-pcs/)
+## Instructions for connecting to Azure IoT Hub from [B&R Automation PC](https://www.br-automation.com/en-us/products/industrial-pcs/)
 ### Platform: Windows 10
 - Languages: [C#](/azure-iothub-windows-c#-instructions-B&R-apc.md), [NodeJS](/azure-iothub-windows-nodejs-instructions-B&R-apc.md)
 ### Platform: Linux
