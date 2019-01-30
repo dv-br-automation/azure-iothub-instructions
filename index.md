@@ -9,9 +9,9 @@
 - Languages: [C](/azure-iothub-linux-c-instructions-B&R-apc.md), [Java](/azure-iothub-linux-java-instructions-B&R-apc.md), [JavaScript](/azure-iothub-linux-js-instructions-B&R-apc.md), [Python](/azure-iothub-linux-python-instructions-B&R-apc.md)
 
  
+Note: Communication to Azure IoT Hub from B&R APCs is not limited to the programming languages mentioned above. 
 
-
-# Got questions? Want a quote?
+## Got questions? Want a quote?
 Email: [office@br-automation.com](mailto:office@br-automation.com)
 
 Phone: [+43 7748 65860](callto:+43774865860)
