@@ -4,7 +4,7 @@
 ---
 Platform: Windows 10
 Device: B&R APC
-Language: C# (azure-iothub-windows-c#-instructions-B&R-apc.md)
+Language: C#(/azure-iothub-windows-c#-instructions-B&R-apc.md)
 ---
   
 
