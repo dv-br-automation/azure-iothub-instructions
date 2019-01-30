@@ -1,6 +1,6 @@
 
 
-## Instructions for connecting to [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) from [B&R Automation PC](https://www.br-automation.com/en-us/products/industrial-pcs/)
+## Instructions for communicating to [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) from [B&R Automation PC](https://www.br-automation.com/en-us/products/industrial-pcs/)
 
 ### Windows 10
 - Languages: [C#](/azure-iothub-windows-csharp-instructions-B&R-apc.md), [NodeJS](/azure-iothub-windows-nodejs-instructions-B&R-apc.md)
